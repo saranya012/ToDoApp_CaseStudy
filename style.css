@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  background: beige !important;
+}
+
+
+
+.conatiner form{
+    padding: 5% 0px 0px 35%;
+}
+
+
+  input[type="checkbox"]:checked + label::before {
+    content: "\2714";
+    background-color: green;
+  }
+  
+  input[type="checkbox"] + label {
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] + label::before {
+    content: "\2718";
+    background-color: red;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+
+
+.arrange-1 > p{
+  background: beige;
+}
+span{
+  color: white;
+}
+
+.navbar-toggler-icon{
+  background-color: white;
+}
+
+
+
+
+
+@media (min-width: 768px){
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 90% !important;
+}
+
+.row{
+  padding: 0px 20% 0px 20% !important;
+}
+}
